@@ -1,4 +1,4 @@
-const baseUrl = `http://localhost:4000/api/v1/valuations/`;
+const baseUrl = `${process.env.NEXT_PUBLIC_API_BASEPATH}/valuations/`;
 
 export const valuationsService = {
   getAverageValuationForCity,
